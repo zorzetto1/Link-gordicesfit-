@@ -82,11 +82,11 @@
        z-index: 1;
        transform: translateY(-50%);        
 
-       animation: slide-back 0.2s;
+       animation: slide-back 0.8s;
     }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;  
+  animation: slide-in 0.8s forwards;  
     /* right: 0;*/ /*não iremos usar mais devido a animação*/
    /* left: initial;*/ /*não iremos usar mais devido a animação*/
 }
