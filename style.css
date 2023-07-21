@@ -15,7 +15,7 @@
         
         .light {
             --text-color: black;      
-            --bg-url: url(./assets/folhagem.jpg);
+            --bg-url: url(./assets/bg-mobile-light.jpg);
             --stroke-color: rgba(0,0,0,0.5);
             --surface-color:rgba(0,0,0,0.05);
             --surface-color-hover: rgba(0,0,0,0,0.02);
@@ -33,6 +33,7 @@
         /*background: color image repeat position/size */
 
         background: var(--bg-url) no-repeat top center/cover;
+        height: 100vh;
         }
 
         body * {
@@ -41,7 +42,7 @@
         }
 
         #container {
-        width: 100px;
+        width: 100%;
         max-width: 588px;
         margin: 56px auto 0px;
         padding: 0 24px;
@@ -163,3 +164,13 @@
             font-size: 14px;        
             }
         
+            /*media queries*/
+            @media (min-width: 700px) {
+                :root {
+                    --bg-url: url(./assets/bg-desktop.jpg);
+                }
+
+                .light {
+                    --bg-url: url(./assets/bg-desktop-light.jpg);
+                }
+            }
