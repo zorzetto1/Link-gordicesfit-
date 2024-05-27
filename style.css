@@ -111,7 +111,7 @@
         /*LINKS*/
         ul {
             list-style: none;
-            display: flex;
+            display: block;
             justify-content: center; /* Centralize os botões horizontalmente */
             flex-wrap: wrap; /* Quebre a linha se necessário */
             padding: 24px 0;
