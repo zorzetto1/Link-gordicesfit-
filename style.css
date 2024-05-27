@@ -2,6 +2,11 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            .button.small {
+                padding: 5px 10px; /* Reduzir o espaçamento interno */
+                font-size: 12px; /* Reduzir o tamanho da fonte */
+              }
+              
         }
         :root {
             --text-color:white;
@@ -104,6 +109,11 @@
 
     #switch button:hover {
         outline: 8px solid var(--highlight-color);
+        .button.small {
+  padding: 5px 10px; /* Reduzir o espaçamento interno */
+  font-size: 12px; /* Reduzir o tamanho da fonte */
+}
+
     }
 
         /*LINKS*/
