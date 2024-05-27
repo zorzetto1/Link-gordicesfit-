@@ -44,8 +44,8 @@
 
         #container {
         width: 100%;
-        max-width: 70%;
-        margin: 32px auto 0px;
+        max-width: 90%;
+        margin: 56px auto 0px;
         padding: 0 24px;
 
         }
@@ -111,7 +111,7 @@
         /*LINKS*/
         ul {
             list-style: none;
-            display: block;
+            display: flex;
             justify-content: center; /* Centralize os botões horizontalmente */
             flex-wrap: wrap; /* Quebre a linha se necessário */
             padding: 24px 0;
