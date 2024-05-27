@@ -43,10 +43,10 @@
         }
 
         #container {
-        width: 50%;
+        width: 100%;
         max-width: 90%;
-        margin: 20px auto 0px;
-        padding: 0 12px;
+        margin: 56px auto 0px;
+        padding: 0 24px;
 
         }
     /*profile*/
@@ -56,7 +56,7 @@
         }
 
         #profile img {
-            width: 64px;
+            width: 112px;
         } 
 
         #profile p {
@@ -110,39 +110,30 @@
 
         /*LINKS*/
         ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        padding: 24px 0;
-
+            list-style: none;
+            display: flex;
+            justify-content: center; /* Centralize os botões horizontalmente */
+            flex-wrap: wrap; /* Quebre a linha se necessário */
+            padding: 24px 0;
         }
 
         ul li a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            padding: 12px 20px;
-
-            background-color: var(--stroke-color);
-            border: 1px solid var(--stroke-color);
-            border-radius: 8px;
-
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter0 blur(4px);
-
+            display: block; /* Mude para 'block' para que os botões sejam de largura total */
+            padding: 16px; /* Ajuste o espaçamento interno conforme necessário */
+            background-color: #fff; /* Cor de fundo */
+            color: #000; /* Cor do texto */
+            border: 1px solid #ddd; /* Borda */
+            border-radius: 8px; /* Bordas arredondadas */
             text-decoration: none; 
             font-weight: 500;
-            transition: background 0.2s;
-
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
         }
-        /*pseudo selector a:hover*/
-            ul li a:hover {
-            background: var(--surface-color-hover);
-            border: 1.5px solid var(--text-color);
+        ul li {
+            margin: 8px; /* Ajuste a margem entre os botões */
         }
-
+        ul li a:hover {
+            background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+        }
         /*socila links */
         #social-links {
             display: flex;
