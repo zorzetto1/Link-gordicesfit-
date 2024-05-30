@@ -43,19 +43,19 @@ body * {
 
 #container {
 width: 100%;
-max-width: 3px;
+max-width: 588px;
 margin: 56px auto 0px;
 padding: 0 24px;
 
 }
 /*profile*/
 #profile {
-text-align: center;
+text-align:center;
 padding: 24px;
 }
 
 #profile img {
-    width: 112px;
+        width: 112px;
 } 
 
 #profile p {
